@@ -96,7 +96,7 @@ void SecondScreen::AddFlags()
 {
 	
 	auto englandFlag = cocos2d::ui::Button::create("england.png", "england.png", "england.png", cocos2d::ui::Widget::TextureResType::LOCAL);
-	englandFlag->setPosition(cocos2d::Vec2(125, 550));
+	englandFlag->setPosition(cocos2d::Vec2(125, 530));
 	englandFlag->setName("btnEngland");
 	_rootNode->addChild(englandFlag);
 
@@ -106,7 +106,7 @@ void SecondScreen::AddFlags()
 	_rootNode->addChild(walesFlag);
 
 	auto irelandFlag = cocos2d::ui::Button::create("ireland.png", "ireland.png", "ireland.png", cocos2d::ui::Widget::TextureResType::LOCAL);
-	irelandFlag->setPosition(cocos2d::Vec2(600, 600));
+	irelandFlag->setPosition(cocos2d::Vec2(600, 530));
 	irelandFlag->setName("btnIreland");
 	_rootNode->addChild(irelandFlag);
 
